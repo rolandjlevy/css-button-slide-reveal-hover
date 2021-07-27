@@ -4,6 +4,10 @@ body {
   letter-spacing: 0.5px;
 }
 
+.container {
+  height: 100vh;
+}
+
 .wrapper {
   position: relative;
   overflow: hidden;
@@ -13,14 +17,17 @@ body {
   box-shadow: 0 5px 10px -5px #00000066;
 }
 
+.centred {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
   position: absolute;
   border-radius: inherit;
   width: inherit;
   height: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .btn > span {
